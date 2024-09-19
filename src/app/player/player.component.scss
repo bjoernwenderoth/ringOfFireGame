@@ -1,0 +1,27 @@
+.player {
+    width: 300px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background-color: #00000028;
+    color: rgba(255, 255, 255, 0.536);
+
+    >span {
+    font-size: 32px;
+    font-weight: bold;
+    margin-left: 16px;
+    }
+    >img {
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
+        border-radius: 100%;
+    }
+}
+
+.player-active {
+    color: white;
+    background-color: #702c8dd1;
+}

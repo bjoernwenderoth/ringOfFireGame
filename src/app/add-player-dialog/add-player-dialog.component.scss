@@ -1,0 +1,17 @@
+.dialog-box {
+    width: auto;
+    height: auto;
+
+    padding: 50px;
+
+
+    >p {
+        margin-bottom: 32px;
+    }
+}
+
+.ok-btn {
+    width: 100&;
+    display: flex;
+    justify-content: space-between;
+}
