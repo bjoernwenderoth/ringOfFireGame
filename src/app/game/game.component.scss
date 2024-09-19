@@ -2,7 +2,7 @@
     width: 100vw;
     height: 100vh;
     max-width: 100%;
-    background-image: url('/assets/img/board.jpg');
+    background-image: url('/ringOfFire/assets/img/board.jpg');
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,10 +10,10 @@
 
 .card-stack {
     position: relative;
-    right: 18%;;
+    right: 28%;;
     >img {
         position: absolute;
-        width: 120px;
+        width: 140px;
     }
 }
 
